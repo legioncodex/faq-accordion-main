@@ -1,0 +1,40 @@
+
+:root{
+--White: hsl(0, 0%, 100%);
+--Light-pink: hsl(275, 100%, 97%);
+--Grayish-purple: hsl(292, 16%, 49%);
+--Dark-purple: hsl(292, 42%, 14%);
+}
+@media screen and (orientation: landscape) {
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--Light-pink) url(/assets/images/background-pattern-desktop.svg) no-repeat center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    width: 600px;
+    height: 600px;
+    background: var(--White);
+    border-radius: 5%;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+button{
+    border: none;
+    background: none;
+}
+}
+@media screen and (orientation: portrait) {
+
+}
